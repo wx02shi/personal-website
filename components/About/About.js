@@ -1,13 +1,8 @@
 import React from "react";
-import {
-  Box,
-  Flex,
-  Heading,
-  HStack,
-  Spacer,
-  Text,
-  VStack,
-} from "@chakra-ui/layout";
+import Section from "../../containers/Section/Section";
+import { Box, Heading, HStack, Image, Text, VStack } from "@chakra-ui/layout";
+
+const image = { src: "vercel.svg", alt: "profile picture", radius: "full" };
 
 const about = (
   <VStack align="flex-start" w="100%">
@@ -32,15 +27,14 @@ const contact = (
 );
 
 const resume = (
-  <Box p="4" bg="gray.700">
+  <Box p="4" bg="gray.500">
     Download Resume
   </Box>
 );
 
 const About = () => {
   return (
-    <HStack bg="gray.400" w="100%">
-      <Box>Image</Box>
+    <Section bg="gray.200" image={image}>
       <VStack>
         {about}
         <HStack>
@@ -48,7 +42,7 @@ const About = () => {
           {resume}
         </HStack>
       </VStack>
-    </HStack>
+    </Section>
   );
 };
 

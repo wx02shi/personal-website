@@ -1,6 +1,7 @@
 import Hero from "../components/Hero/Hero";
 import Navbar from "../components/Navbar/Navbar";
 import About from "../components/About/About";
+import Education from "../components/Education/Education";
 import { VStack } from "@chakra-ui/layout";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       </VStack>
 
       <About />
+      <Education />
     </VStack>
   );
 }
