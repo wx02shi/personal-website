@@ -3,7 +3,7 @@ import { Center, Heading, Stack, Text } from "@chakra-ui/react";
 
 const Hero = () => {
   return (
-    <Center h="100%" w="100%" align="center" m={0}>
+    <Center h="100%" w="100%" align="center">
       <Stack maxW="container.md">
         <Heading>William Shi</Heading>
         <Text>
