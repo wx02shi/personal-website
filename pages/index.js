@@ -1,10 +1,17 @@
 import Hero from "../components/Hero/Hero";
-import { Box, Center } from "@chakra-ui/layout";
+import Navbar from "../components/Navbar/Navbar";
+import About from "../components/About/About";
+import { VStack } from "@chakra-ui/layout";
 
 export default function Home() {
   return (
-    <Center maxW="container.md" m="auto">
-      <Hero />
-    </Center>
+    <VStack w="100%">
+      <VStack h="100vh" w="100%">
+        <Navbar />
+        <Hero />
+      </VStack>
+
+      <About />
+    </VStack>
   );
 }
