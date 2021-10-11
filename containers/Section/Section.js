@@ -13,7 +13,19 @@ const Section = ({ bg, title, image, children }) => {
         maxW="container.lg"
       >
         <GridItem align="start" colSpan={1}>
-          {title && <Text>{title.toUpperCase()}</Text>}
+          {title && (
+            <Text
+              fontSize="xl"
+              fontWeight="bold"
+              letterSpacing="widest"
+              textDecorationLine="underline"
+              textDecorationColor="blue.400"
+              textDecorationThickness="0.25rem"
+              textUnderlineOffset="0.5rem"
+            >
+              {title.toUpperCase()}
+            </Text>
+          )}
           {image && (
             <Image
               boxSize="120px"
