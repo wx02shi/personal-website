@@ -32,7 +32,7 @@ const resume = (
 
 const Education = () => {
   return (
-    <Section bg="gray.200" title="Education">
+    <Section title="Education" description="Hello">
       <VStack>
         {about}
         <HStack>

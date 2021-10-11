@@ -1,21 +1,41 @@
 import React from "react";
 import { Image } from "@chakra-ui/react";
-import { Heading, HStack, Text, VStack } from "@chakra-ui/layout";
+import { Box, Grid, GridItem, Heading, Text, VStack } from "@chakra-ui/layout";
 
 const Section = ({ bg, title, image, description, children }) => {
   return (
-    <HStack w="100%" bg={bg} align="flex-start">
-      <VStack h="100%" w="45%">
-        {title && <Text>{title.toUpperCase()}</Text>}
-        {image && (
-          <Image src={image.src} alt={image.alt} borderRadius={image.radius} />
+    <Box bg={bg}>
+      <Grid
+        templateColumns="repeat(4, 1fr)"
+        gap={6}
+        px={12}
+        py={24}
+        maxW="container.lg"
+      >
+        <GridItem align="start" rowSpan={2} colSpan={1}>
+          {title && <Text>{title.toUpperCase()}</Text>}
+          {image && (
+            <Image
+              boxSize="120px"
+              src={image.src}
+              alt={image.alt}
+              borderRadius={image.radius}
+            />
+          )}
+        </GridItem>
+
+        {description && (
+          <GridItem align="start" colSpan={3}>
+            <Text>{description}</Text>
+          </GridItem>
         )}
-      </VStack>
-      <VStack>
-        {description && <Text>{description}</Text>}
-        {children}
-      </VStack>
-    </HStack>
+        {children && (
+          <GridItem align="start" colSpan={3}>
+            {children}
+          </GridItem>
+        )}
+      </Grid>
+    </Box>
   );
 };
 

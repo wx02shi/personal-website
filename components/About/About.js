@@ -2,7 +2,11 @@ import React from "react";
 import Section from "../../containers/Section/Section";
 import { Box, Heading, HStack, Image, Text, VStack } from "@chakra-ui/layout";
 
-const image = { src: "vercel.svg", alt: "profile picture", radius: "full" };
+const image = {
+  src: "profile_pic.jpg",
+  alt: "profile picture",
+  radius: "full",
+};
 
 const about = (
   <VStack align="flex-start" w="100%">
