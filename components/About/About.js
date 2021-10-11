@@ -49,7 +49,7 @@ const resume = (
 
 const About = () => {
   return (
-    <Section bg="gray.200" image={image}>
+    <Section bg="gray.200" image={image} mtl mbl>
       <VStack spacing={8}>
         {about}
         <Grid templateColumns="repeat(2, 1fr)" gap={4}>

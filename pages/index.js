@@ -2,6 +2,7 @@ import Hero from "../components/Hero/Hero";
 import Navbar from "../components/Navbar/Navbar";
 import About from "../components/About/About";
 import Education from "../components/Education/Education";
+import Experience from "../components/Experience/Experience";
 import { Box, Center, VStack } from "@chakra-ui/layout";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
 
       <About />
       <Education />
+      <Experience />
     </Box>
   );
 }

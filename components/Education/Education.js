@@ -13,7 +13,7 @@ const university = (
 const ib = (
   <VStack align="start" spacing={4}>
     <Heading size="lg">International Baccalaureate Programme</Heading>
-    <Text>Victoria Park C.I., 2016 - 2020</Text>
+    <Text>Victoria Park C.I., Sept 2016 - May 2020</Text>
     <Text>
       HL courses: Mathematics, English A (Language and Literature), Computer
       Science <br />
@@ -25,7 +25,7 @@ const ib = (
 
 const Education = () => {
   return (
-    <Section title="Education">
+    <Section title="Education" mtl>
       <VStack align="start" spacing={8}>
         {university}
         {ib}
