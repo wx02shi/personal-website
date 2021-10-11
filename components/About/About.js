@@ -1,6 +1,17 @@
 import React from "react";
 import Section from "../../containers/Section/Section";
-import { Box, Heading, HStack, Image, Text, VStack } from "@chakra-ui/layout";
+import { Button } from "@chakra-ui/react";
+import { ArrowDownIcon } from "@chakra-ui/icons";
+import {
+  Box,
+  Grid,
+  GridItem,
+  Heading,
+  HStack,
+  Image,
+  Text,
+  VStack,
+} from "@chakra-ui/layout";
 
 const image = {
   src: "profile_pic.jpg",
@@ -9,8 +20,8 @@ const image = {
 };
 
 const about = (
-  <VStack align="flex-start" w="100%">
-    <Heading>About Me</Heading>
+  <VStack align="flex-start" spacing={4}>
+    <Heading size="lg">About Me</Heading>
     <Text>
       Use this bio section as your way of describing yourself and saying what
       you do, what technologies you like to use or feel most comfortable with,
@@ -20,8 +31,8 @@ const about = (
 );
 
 const contact = (
-  <VStack align="flex-start">
-    <Heading>Contact Details</Heading>
+  <VStack align="flex-start" spacing={4}>
+    <Heading size="lg">Contact Details</Heading>
     <Text>
       Use this bio section as your way of describing yourself and saying what
       you do, what technologies you like to use or feel most comfortable with,
@@ -31,20 +42,20 @@ const contact = (
 );
 
 const resume = (
-  <Box p="4" bg="gray.500">
+  <Button size="lg" leftIcon={<ArrowDownIcon />}>
     Download Resume
-  </Box>
+  </Button>
 );
 
 const About = () => {
   return (
     <Section bg="gray.200" image={image}>
-      <VStack>
+      <VStack spacing={8}>
         {about}
-        <HStack>
-          {contact}
-          {resume}
-        </HStack>
+        <Grid templateColumns="repeat(2, 1fr)" gap={4}>
+          <GridItem>{contact}</GridItem>
+          <GridItem>{resume}</GridItem>
+        </Grid>
       </VStack>
     </Section>
   );

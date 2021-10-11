@@ -2,7 +2,7 @@ import React from "react";
 import { Image } from "@chakra-ui/react";
 import { Box, Grid, GridItem, Heading, Text, VStack } from "@chakra-ui/layout";
 
-const Section = ({ bg, title, image, description, children }) => {
+const Section = ({ bg, title, image, children }) => {
   return (
     <Box bg={bg}>
       <Grid
@@ -12,7 +12,7 @@ const Section = ({ bg, title, image, description, children }) => {
         py={24}
         maxW="container.lg"
       >
-        <GridItem align="start" rowSpan={2} colSpan={1}>
+        <GridItem align="start" colSpan={1}>
           {title && <Text>{title.toUpperCase()}</Text>}
           {image && (
             <Image
@@ -24,11 +24,6 @@ const Section = ({ bg, title, image, description, children }) => {
           )}
         </GridItem>
 
-        {description && (
-          <GridItem align="start" colSpan={3}>
-            <Text>{description}</Text>
-          </GridItem>
-        )}
         {children && (
           <GridItem align="start" colSpan={3}>
             {children}
