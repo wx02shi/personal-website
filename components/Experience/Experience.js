@@ -11,7 +11,7 @@ import {
 } from "@chakra-ui/layout";
 
 const heka = (
-  <VStack align="flex-start" spacing={4}>
+  <VStack align="start" spacing={4}>
     <Heading size="lg">
       <Link href="https://heka.ca" isExternal>
         Heka Health | Santé
