@@ -2,43 +2,33 @@ import React from "react";
 import Section from "../../containers/Section/Section";
 import { Box, Heading, HStack, Text, VStack } from "@chakra-ui/layout";
 
-const about = (
-  <VStack align="flex-start" w="100%">
-    <Heading>About Me</Heading>
-    <Text>
-      Use this bio section as your way of describing yourself and saying what
-      you do, what technologies you like to use or feel most comfortable with,
-      describing your personality, or whatever else you feel like throwing in.
-    </Text>
+const university = (
+  <VStack align="start" spacing={4}>
+    <Heading size="lg">University of Waterloo</Heading>
+    <Text>Bachelor's in Computer Science, Sept 2020 - Present</Text>
+    <Text>Participating in UW's coop program.</Text>
   </VStack>
 );
 
-const contact = (
-  <VStack align="flex-start">
-    <Heading>Contact Details</Heading>
+const ib = (
+  <VStack align="start" spacing={4}>
+    <Heading size="lg">International Baccalaureate Programme</Heading>
+    <Text>Victoria Park C.I., 2016 - 2020</Text>
     <Text>
-      Use this bio section as your way of describing yourself and saying what
-      you do, what technologies you like to use or feel most comfortable with,
-      describing your personality, or whatever else you feel like throwing in.
+      HL courses: Mathematics, English A (Language and Literature), Computer
+      Science <br />
+      SL courses: Physics, Chemistry, Economics, French B <br />
+      39/45 points
     </Text>
   </VStack>
-);
-
-const resume = (
-  <Box p="4" bg="gray.500">
-    Download Resume
-  </Box>
 );
 
 const Education = () => {
   return (
     <Section title="Education">
-      <VStack>
-        {about}
-        <HStack>
-          {contact}
-          {resume}
-        </HStack>
+      <VStack align="start" spacing={8}>
+        {university}
+        {ib}
       </VStack>
     </Section>
   );

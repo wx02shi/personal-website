@@ -22,6 +22,7 @@ const Section = ({ bg, title, image, children }) => {
               textDecorationColor="blue.400"
               textDecorationThickness="0.25rem"
               textUnderlineOffset="0.5rem"
+              mt={2}
             >
               {title.toUpperCase()}
             </Text>
