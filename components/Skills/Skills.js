@@ -4,10 +4,10 @@ import SkillCard from "../../containers/SkillCard/SkillCard";
 import { Grid, GridItem, Text, VStack } from "@chakra-ui/layout";
 
 const listSkills = [
-  { img: "reactjs-icon.svg", text: "React" },
-  { img: "next-js.svg", text: "Next.js" },
-  { img: "nodejs.svg", text: "Node.js" },
-  { img: "java-icon.svg", text: "Java" },
+  { img: "reactjs-icon.svg", text: "React", link: "https://reactjs.org" },
+  { img: "next-js.svg", text: "Next.js", link: "https://nextjs.org" },
+  { img: "nodejs.svg", text: "Node.js", link: "https://nodejs.org/en/" },
+  { img: "java-icon.svg", text: "Java", link: "https://www.java.com/en/" },
 ];
 
 const Skills = () => {
@@ -22,7 +22,7 @@ const Skills = () => {
         <Grid templateColumns="repeat(4, 1fr)" gap={4} maxW="md" w="100%">
           {listSkills.map((sk, i) => (
             <GridItem colSpan={{ base: 2, lg: 1 }} key={i}>
-              <SkillCard img={sk.img} text={sk.text} />
+              <SkillCard img={sk.img} text={sk.text} link={sk.link} />
             </GridItem>
           ))}
         </Grid>
