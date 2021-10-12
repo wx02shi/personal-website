@@ -5,10 +5,11 @@ import { Box, Grid, GridItem, Heading, Text, VStack } from "@chakra-ui/layout";
 const Section = ({ bg, title, separator, mtl, mbl, image, children }) => {
   return (
     <Box bg={bg}>
-      <Box px={12} pb={mbl ? 24 : 12}>
+      <Box px={10} pb={mbl ? 24 : 12}>
         <Grid
           templateColumns="repeat(4, 1fr)"
           gap={6}
+          px={2}
           pt={mtl ? 24 : 12}
           maxW="container.lg"
           borderTop={separator && "1px"}

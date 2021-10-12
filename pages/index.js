@@ -4,6 +4,8 @@ import About from "../components/About/About";
 import Education from "../components/Education/Education";
 import Experience from "../components/Experience/Experience";
 import Skills from "../components/Skills/Skills";
+import Connect from "../components/Connect/Connect";
+import Footer from "../components/Footer/Footer";
 import { Box, Center, VStack } from "@chakra-ui/layout";
 
 export default function Home() {
@@ -18,6 +20,9 @@ export default function Home() {
       <Education />
       <Experience />
       <Skills />
+      <Connect />
+
+      <Footer />
     </Box>
   );
 }
