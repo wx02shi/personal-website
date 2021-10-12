@@ -13,7 +13,7 @@ const university = (
 const ib = (
   <VStack align="start" spacing={4}>
     <Heading size="lg">International Baccalaureate Programme</Heading>
-    <Text>Victoria Park C.I., Sept 2016 - May 2020</Text>
+    <Text>Victoria Park C.I., Sept 2018 - May 2020</Text>
     <Text>
       HL courses: Mathematics, English A (Language and Literature), Computer
       Science <br />
