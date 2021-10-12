@@ -1,6 +1,7 @@
 import React from "react";
 import Section from "../../containers/Section/Section";
 import {
+  Box,
   Heading,
   Link,
   ListItem,
@@ -20,6 +21,8 @@ const heka = (
     <Text>Full-stack intern, May 2021 - Aug 2021</Text>
     <Text>
       Experience working with Next.js and React in an Agile environment
+    </Text>
+    <Box>
       <UnorderedList>
         <ListItem>
           Contributions led to product's official launch at the end of the
@@ -38,7 +41,7 @@ const heka = (
           documentation guidelines
         </ListItem>
       </UnorderedList>
-    </Text>
+    </Box>
   </VStack>
 );
 
