@@ -1,18 +1,19 @@
 import React from "react";
-import { Center, HStack } from "@chakra-ui/layout";
+import { toggleColorMode } from "@chakra-ui/color-mode";
+import { Center, HStack, Link } from "@chakra-ui/layout";
 
-const navItems = ["Home", "About", "Resume", "Works"];
+// const navItems = ["Home", "About", "Resume", "Works"];
 
 const Navbar = () => {
-  return (
-    <Center maxW="container.md">
-      <HStack>
+  return <Center maxW="container.md"></Center>;
+};
+
+export default Navbar;
+
+/*
+<HStack>
         {navItems.map((navItem, i) => {
           return <div key={i}>{navItem.toUpperCase()}</div>;
         })}
       </HStack>
-    </Center>
-  );
-};
-
-export default Navbar;
+      */
