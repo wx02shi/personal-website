@@ -42,10 +42,50 @@ const heka = (
   </VStack>
 );
 
+const cac = (
+  <VStack align="start" spacing={4}>
+    <Heading size="lg">
+      <Link href="https://github.com/Cache-and-Cookies" isExternal>
+        Cache & Cookies
+      </Link>
+    </Heading>
+    <Text>Frontend developer, Oct 2020 - Apr 2021</Text>
+    <Text>
+      A small side project group created with some friends. We wanted to support
+      local businesses recovering from the COVID-19 pandemic. Our goal was to
+      provide professional website production services at an affordable price.
+      As a result, our clients were able to connect with their customers better
+      than ever before using their websites and SEO. Notable works include
+      global Bubble Tea chain{" "}
+      <Link
+        color="red.500"
+        fontWeight={700}
+        href="https://hiteato.ca/"
+        isExternal
+      >
+        HiTea
+      </Link>
+      , and{" "}
+      <Link
+        color="blue.500"
+        fontWeight={700}
+        href="https://msmrtool.com/"
+        isExternal
+      >
+        MSMR
+      </Link>
+      , contracted by Dr. Jenny Liu of Ryerson University.
+    </Text>
+  </VStack>
+);
+
 const Experience = () => {
   return (
     <Section title="Experience" separator>
-      {heka}
+      <VStack spacing={8}>
+        {heka}
+        {cac}
+      </VStack>
     </Section>
   );
 };
