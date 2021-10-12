@@ -5,8 +5,8 @@ import { Box, Heading, HStack, Text, VStack } from "@chakra-ui/layout";
 const university = (
   <VStack align="start" spacing={4}>
     <Heading size="lg">University of Waterloo</Heading>
-    <Text>Bachelor's in Computer Science, Sept 2020 - Present</Text>
-    <Text>Participating in UW's coop program.</Text>
+    <Text>Bachelor&apos;s in Computer Science, Sept 2020 - Present</Text>
+    <Text>Participating in UW&apos;s coop program.</Text>
   </VStack>
 );
 

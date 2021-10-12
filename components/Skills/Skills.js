@@ -15,8 +15,9 @@ const Skills = () => {
     <Section title="Skills" separator>
       <VStack spacing={8} align="start">
         <Text>
-          I'm always looking to expand my skillset and familiarize with new
-          technologies and languages, but here is what I'm most familiar with!
+          I&apos;m always looking to expand my skillset and familiarize with new
+          technologies and languages, but here is what I&apos;m most familiar
+          with!
         </Text>
         <Grid templateColumns="repeat(4, 1fr)" gap={4} maxW="md" w="100%">
           {listSkills.map((sk, i) => (

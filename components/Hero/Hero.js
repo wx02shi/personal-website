@@ -19,7 +19,7 @@ const Hero = () => {
     <>
       <Stack align="start" maxW="container.md" spacing={6}>
         <Stack align="start" spacing={1}>
-          <Heading size="xl">Nice to meet you, I'm</Heading>
+          <Heading size="xl">Nice to meet you, I&apos;m</Heading>
           <Heading className={heroStyles.color} size="4xl" fontSize="9xl">
             William
           </Heading>

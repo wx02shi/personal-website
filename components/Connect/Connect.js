@@ -15,8 +15,8 @@ const Connect = () => {
         <VStack align="start" spacing={4}>
           <Text>
             Want to get in touch with me? You can always reach out to me via
-            email or Linkedin, and I'll get back to you as quickly as possible.
-            Thank you for your time!
+            email or Linkedin, and I&apos;ll get back to you as quickly as
+            possible. Thank you for your time!
           </Text>
           <Heading size="md">wxshi@uwaterloo.ca</Heading>
           <HStack spacing={4}>

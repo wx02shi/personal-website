@@ -25,7 +25,7 @@ const heka = (
     <Box>
       <UnorderedList>
         <ListItem>
-          Contributions led to product's official launch at the end of the
+          Contributions led to product&apos;s official launch at the end of the
           internship
         </ListItem>
         <ListItem>
