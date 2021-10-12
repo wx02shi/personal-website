@@ -6,7 +6,8 @@ import { LinkBox, LinkOverlay, Text } from "@chakra-ui/layout";
 const SkillCard = ({ img, text, link }) => {
   return (
     <LinkBox
-      as="Center"
+      align="center"
+      justify="center"
       bg={useColorModeValue("gray.100", "gray.600")}
       borderRadius={4}
       p={2}

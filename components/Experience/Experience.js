@@ -3,6 +3,7 @@ import Section from "../../containers/Section/Section";
 import {
   Box,
   Heading,
+  HStack,
   Link,
   ListItem,
   Text,
@@ -10,6 +11,7 @@ import {
   VStack,
   List,
 } from "@chakra-ui/layout";
+import { Tag } from "@chakra-ui/react";
 
 const heka = (
   <VStack align="start" spacing={4}>
@@ -18,6 +20,13 @@ const heka = (
         Heka Health | Santé
       </Link>
     </Heading>
+    <HStack>
+      <Tag colorScheme="teal">React</Tag>
+      <Tag colorScheme="cyan">Next.js</Tag>
+      <Tag colorScheme="blue">Postgresql</Tag>
+      <Tag colorScheme="red">Auth0</Tag>
+      <Tag colorScheme="purple">Stripe</Tag>
+    </HStack>
     <Text>Full-stack intern, May 2021 - Aug 2021</Text>
     <Text>
       Experience working with Next.js and React in an Agile environment
@@ -52,6 +61,12 @@ const cac = (
         Cache & Cookies
       </Link>
     </Heading>
+    <HStack>
+      <Tag colorScheme="teal">React</Tag>
+      <Tag colorScheme="cyan">Next.js</Tag>
+      <Tag colorScheme="green">Django</Tag>
+      <Tag colorScheme="purple">Strapi</Tag>
+    </HStack>
     <Text>Frontend developer, Oct 2020 - Apr 2021</Text>
     <Text>
       A small side project group created with some friends. We wanted to support

@@ -1,15 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import {
-  Box,
-  Center,
-  Heading,
-  HStack,
-  Link,
-  Stack,
-  Text,
-  SlideFade,
-} from "@chakra-ui/react";
+import { Heading, HStack, Link, Stack, Text } from "@chakra-ui/react";
 
 import styles from "../../styles/socials.module.css";
 import heroStyles from "../../styles/hero.module.css";
