@@ -12,6 +12,7 @@ import {
 } from "@chakra-ui/react";
 
 import styles from "../../styles/socials.module.css";
+import heroStyles from "../../styles/hero.module.css";
 
 const Hero = () => {
   return (
@@ -19,7 +20,7 @@ const Hero = () => {
       <Stack align="start" maxW="container.md" spacing={6}>
         <Stack align="start" spacing={1}>
           <Heading size="xl">Nice to meet you, I'm</Heading>
-          <Heading as="h1" size="4xl" fontSize="9xl">
+          <Heading className={heroStyles.color} size="4xl" fontSize="9xl">
             William
           </Heading>
         </Stack>

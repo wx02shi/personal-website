@@ -61,7 +61,7 @@ const resume = (
 const About = () => {
   return (
     <Section
-      bg={useColorModeValue("gray.300", "gray.600")}
+      bg={useColorModeValue("gray.200", "gray.700")}
       image={image}
       mtl
       mbl
