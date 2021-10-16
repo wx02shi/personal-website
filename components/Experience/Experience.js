@@ -45,9 +45,9 @@ const heka = (
         </ListItem>
         <ListItem>Implemented Stripe payment management front-to-back</ListItem>
         <ListItem>
-          Improved workflow improvements by setting up linting/style
-          auto-formatting, migrating project management to Jira, and making
-          documentation guidelines
+          Improved team workflow by setting up linting/style auto-formatting,
+          migrating project management to Jira, and making documentation
+          guidelines
         </ListItem>
       </UnorderedList>
     </Box>
