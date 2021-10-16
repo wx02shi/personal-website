@@ -54,7 +54,12 @@ const contact = (
 
 const resume = (
   <Button size="lg" leftIcon={<ArrowDownIcon />}>
-    Download Resume
+    <Link
+      href="https://drive.google.com/file/d/1cYOrURtaFkC25mqPslULI7MTVyiG06FL/view?usp=sharing"
+      isExternal
+    >
+      Download Resume
+    </Link>
   </Button>
 );
 
