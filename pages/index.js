@@ -7,6 +7,7 @@ import Experience from "../components/Experience/Experience";
 import Skills from "../components/Skills/Skills";
 import Connect from "../components/Connect/Connect";
 import Footer from "../components/Footer/Footer";
+import Unavail from "../components/Unavail/Unavail";
 import { Box, Center, VStack } from "@chakra-ui/layout";
 import Head from "next/head";
 import color from "../styles/hero.module.css";
@@ -17,7 +18,7 @@ export default function Home() {
       <Head>
         <title>William Shi</title>
       </Head>
-      <Box w="100%" align="center">
+      <Box w="100%" align="center" display={{ base: "none", md: "block" }}>
         <AffixMenu />
 
         <VStack
@@ -39,6 +40,7 @@ export default function Home() {
 
         <Footer />
       </Box>
+      <Unavail />
     </>
   );
 }
