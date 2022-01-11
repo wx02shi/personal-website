@@ -13,7 +13,7 @@ const Connect = () => {
     <DarkMode>
       <Section title="Connect" separator mbl>
         <VStack align="start" spacing={4}>
-          <Text>
+          <Text align="left">
             Want to get in touch with me? You can always reach out to me via
             email or Linkedin, and I&apos;ll get back to you as quickly as
             possible. Thank you for your time!

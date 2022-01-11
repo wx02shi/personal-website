@@ -14,7 +14,7 @@ const Skills = () => {
   return (
     <Section title="Skills" separator>
       <VStack spacing={8} align="start">
-        <Text>
+        <Text align="left">
           I&apos;m always looking to expand my skillset and familiarize with new
           technologies and languages, but here is what I&apos;m most familiar
           with!

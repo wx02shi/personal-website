@@ -25,8 +25,8 @@ const image = {
 
 const about = (
   <VStack align="start" spacing={4}>
-    <Heading size="lg">About Me</Heading>
-    <Text>
+    <Heading align="left" size="lg">About Me</Heading>
+    <Text align="left">
       I&apos;m a second year Computer Science student at the University of
       Waterloo. Currently, I&apos;m on a study term, but I&apos;m on the lookout
       for internships in summer 2022. <br />
@@ -39,7 +39,7 @@ const about = (
 
 const contact = (
   <VStack align="start" spacing={4}>
-    <Heading size="lg">Contact Details</Heading>
+    <Heading align="left" size="lg">Contact Details</Heading>
     <Heading size="md">wxshi@uwaterloo.ca</Heading>
     <HStack spacing={4}>
       <Link href="https://github.com/williamsxz99" isExternal>
@@ -58,7 +58,7 @@ const resume = (
       href="https://drive.google.com/file/d/1cYOrURtaFkC25mqPslULI7MTVyiG06FL/view?usp=sharing"
       isExternal
     >
-      Download Resume
+      View Resume
     </Link>
   </Button>
 );

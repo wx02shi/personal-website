@@ -15,7 +15,7 @@ import { Tag } from "@chakra-ui/react";
 
 const heka = (
   <VStack align="start" spacing={4}>
-    <Heading size="lg">
+    <Heading align="left" size="lg">
       <Link href="https://heka.ca" isExternal>
         Heka Health | Santé
       </Link>
@@ -31,7 +31,7 @@ const heka = (
     <Text>
       Experience working with Next.js and React in an Agile environment
     </Text>
-    <Box>
+    <Box align="left">
       <UnorderedList>
         <ListItem>
           Contributions led to product&apos;s official launch at the end of the
@@ -56,7 +56,7 @@ const heka = (
 
 const cac = (
   <VStack align="start" spacing={4}>
-    <Heading size="lg">
+    <Heading align="left" size="lg">
       <Link href="https://github.com/Cache-and-Cookies" isExternal>
         Cache & Cookies
       </Link>
@@ -68,7 +68,7 @@ const cac = (
       <Tag colorScheme="purple">Strapi</Tag>
     </HStack>
     <Text>Frontend developer, Oct 2020 - Apr 2021</Text>
-    <Text>
+    <Text align="left">
       A small side project group created with some friends. We wanted to support
       local businesses recovering from the COVID-19 pandemic. Our goal was to
       provide professional website production services at an affordable price.

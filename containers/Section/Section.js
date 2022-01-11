@@ -18,6 +18,7 @@ const Section = ({ bg, title, separator, mtl, mbl, image, children }) => {
           <GridItem align="start" colSpan={1}>
             {title && (
               <Text
+                align="left"
                 fontSize="xl"
                 fontWeight="bold"
                 letterSpacing="widest"
