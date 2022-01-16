@@ -8,6 +8,10 @@ const listSkills = [
   { img: "next-js.svg", text: "Next.js", link: "https://nextjs.org" },
   { img: "nodejs.svg", text: "Node.js", link: "https://nodejs.org/en/" },
   { img: "java-icon.svg", text: "Java", link: "https://www.java.com/en/" },
+  { img: "c++-icon.svg", text: "C++", link: "https://www.cplusplus.com/" },
+  { img: "bash-icon.svg", text: "Bash", link: "https://www.gnu.org/software/bash/" },
+  { img: "git-icon.svg", text: "Git", link: "https://git-scm.com/" },
+  { img: "Python-icon.svg", text: "Python", link: "https://www.python.org/" },
 ];
 
 const Skills = () => {
