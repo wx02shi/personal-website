@@ -13,6 +13,8 @@ import {
   Image,
   Link,
   Text,
+  UnorderedList,
+  ListItem,
   VStack,
 } from "@chakra-ui/layout";
 import styles from "../../styles/socials.module.css";
@@ -34,6 +36,20 @@ const about = (
       exploring new technologies is fun, but at the end of the day, I want to
       build software that can make someone else&apos;s day better!
     </Text>
+    <Heading align="left" size="lg">Hobbies</Heading>
+    <Box align="left">
+      <UnorderedList>
+        <ListItem>
+          I play lots of badminton (whenever gyms are actually open)
+        </ListItem>
+        <ListItem>
+          I play video games like Valorant (whenever I can't play badminton)
+        </ListItem>
+        <ListItem>
+          I dabble in the custom mechanical keyboard hobby
+        </ListItem>
+      </UnorderedList>
+    </Box>
   </VStack>
 );
 
