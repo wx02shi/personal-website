@@ -16,8 +16,8 @@ import { Tag } from "@chakra-ui/react";
 const heka = (
   <VStack align="start" spacing={4}>
     <Heading align="left" size="lg">
-      <Link href="https://heka.ca" isExternal>
-        Heka Health | Santé
+      <Link href="https://mypaperminds.com" isExternal>
+        Paperminds (formerly Heka Health | Santé)
       </Link>
     </Heading>
     <HStack>
@@ -66,6 +66,7 @@ const cac = (
       <Tag colorScheme="cyan">Next.js</Tag>
       <Tag colorScheme="green">Django</Tag>
       <Tag colorScheme="purple">Strapi</Tag>
+      <Tag colorScheme="red">Figma</Tag>
     </HStack>
     <Text>Frontend developer, Oct 2020 - Apr 2021</Text>
     <Text align="left">

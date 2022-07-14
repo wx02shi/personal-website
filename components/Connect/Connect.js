@@ -20,10 +20,10 @@ const Connect = () => {
           </Text>
           <Heading size="md">wxshi@uwaterloo.ca</Heading>
           <HStack spacing={4}>
-            <Link href="https://github.com/williamsxz99" isExternal>
+            <Link href="https://github.com/wx02shi" isExternal>
               <FaGithub className={styles.icon} size={30} />
             </Link>
-            <Link href="https://www.linkedin.com/in/shi-william" isExternal>
+            <Link href="https://www.linkedin.com/in/wx02shi" isExternal>
               <FaLinkedin className={styles.icon} size={30} />
             </Link>
           </HStack>
