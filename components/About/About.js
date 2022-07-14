@@ -27,7 +27,9 @@ const image = {
 
 const about = (
   <VStack align="start" spacing={4}>
-    <Heading align="left" size="lg">About Me</Heading>
+    <Heading align="left" size="lg">
+      About Me
+    </Heading>
     <Text align="left">
       I&apos;m a second year Computer Science student at the University of
       Waterloo. Currently, I&apos;m on a study term, but I&apos;m on the lookout
@@ -36,18 +38,20 @@ const about = (
       exploring new technologies is fun, but at the end of the day, I want to
       build software that can make someone else&apos;s day better!
     </Text>
-    <Heading align="left" size="lg">Hobbies</Heading>
+    <Heading align="left" size="lg">
+      Hobbies
+    </Heading>
     <Box align="left">
       <UnorderedList>
+        <ListItem>I play badminton 4-5 times a week</ListItem>
         <ListItem>
-          I play lots of badminton (whenever gyms are actually open)
+          Badminton gear: Li-ning Tectonic 7D, Victor A-190 shoes
         </ListItem>
         <ListItem>
-          I play video games like Valorant (whenever I can't play badminton)
+          Keyboard: The Key Company Portico, with lubed+filmed Epsilon switches
         </ListItem>
-        <ListItem>
-          I dabble in the custom mechanical keyboard hobby
-        </ListItem>
+        <ListItem>IEMs: Moondrop Aria</ListItem>
+        <ListItem>Dream watch: Grand Seiko SBGA211</ListItem>
       </UnorderedList>
     </Box>
   </VStack>
@@ -55,13 +59,15 @@ const about = (
 
 const contact = (
   <VStack align="start" spacing={4}>
-    <Heading align="left" size="lg">Contact Details</Heading>
+    <Heading align="left" size="lg">
+      Contact Details
+    </Heading>
     <Heading size="md">wxshi@uwaterloo.ca</Heading>
     <HStack spacing={4}>
-      <Link href="https://github.com/williamsxz99" isExternal>
+      <Link href="https://github.com/wx02shi" isExternal>
         <FaGithub className={styles.icon} size={30} />
       </Link>
-      <Link href="https://www.linkedin.com/in/shi-william" isExternal>
+      <Link href="https://www.linkedin.com/in/wx02shi" isExternal>
         <FaLinkedin className={styles.icon} size={30} />
       </Link>
     </HStack>
