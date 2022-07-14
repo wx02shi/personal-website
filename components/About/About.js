@@ -44,13 +44,11 @@ const about = (
     <Box align="left">
       <UnorderedList>
         <ListItem>I play badminton 4-5 times a week</ListItem>
+        <ListItem>Badminton gear: Li-ning Tectonic 7D, Victor A-190</ListItem>
         <ListItem>
-          Badminton gear: Li-ning Tectonic 7D, Victor A-190 shoes
+          Keyboard: TheKey.Company Portico, with lubed+filmed Epsilon switches
         </ListItem>
-        <ListItem>
-          Keyboard: The Key Company Portico, with lubed+filmed Epsilon switches
-        </ListItem>
-        <ListItem>IEMs: Moondrop Aria</ListItem>
+        <ListItem>Audio: Moondrop Aria, Phillips SPH9500s</ListItem>
         <ListItem>Dream watch: Grand Seiko SBGA211</ListItem>
       </UnorderedList>
     </Box>
