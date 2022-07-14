@@ -8,7 +8,7 @@ const SkillCard = ({ img, text, link }) => {
     <LinkBox
       align="center"
       justify="center"
-      bg={useColorModeValue("gray.100", "gray.600")}
+      bg={useColorModeValue("gray.100", "gray.700")}
       borderRadius={4}
       p={2}
       spacing={4}
