@@ -1,12 +1,29 @@
 import React from "react";
-import { Box, Link } from "@chakra-ui/layout";
+import { Box, Link, Stack } from "@chakra-ui/layout";
 
 const Footer = () => {
   return (
-    <Box pb={6}>
-      Created with <Link href="https://nextjs.org/">Next.js</Link> and{" "}
-      <Link href="https://chakra-ui.com/">Chakra UI</Link>
-    </Box>
+    <Stack>
+      <Box>
+        Created with{" "}
+        <Link href="https://nextjs.org/" isExternal>
+          Next.js
+        </Link>{" "}
+        and{" "}
+        <Link href="https://chakra-ui.com/" isExternal>
+          Chakra UI
+        </Link>
+      </Box>
+      <Box pb={6}>
+        <Link
+          href="https://github.com/wx02shi/personal-website"
+          isExternal
+          fontStyle="italic"
+        >
+          View the code for this website!
+        </Link>
+      </Box>
+    </Stack>
   );
 };
 
