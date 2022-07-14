@@ -13,6 +13,48 @@ import {
 } from "@chakra-ui/layout";
 import { Tag } from "@chakra-ui/react";
 
+const wsib = (
+  <VStack align="start" spacing={4}>
+    <Heading align="left" size="lg">
+      <Link href="https://wsib-lab.ca" isExternal>
+        Workplace Safety & Insurance Board: Innovation Lab
+      </Link>
+    </Heading>
+    <HStack>
+      <Tag colorScheme="teal">Node.js</Tag>
+      <Tag colorScheme="green">MongoDB</Tag>
+      <Tag colorScheme="blue">Flutter</Tag>
+      <Tag colorScheme="orange">Firebase</Tag>
+      <Tag colorScheme="cyan">OpenAPI</Tag>
+    </HStack>
+    <Text>Full-stack intern, May 2022 - Aug 2022</Text>
+    <Text>
+      Lead a team of six developers to revamp WSIB’s outdated injury claim
+      process into a modern mobile app
+    </Text>
+    <Box align="left">
+      <UnorderedList>
+        <ListItem>
+          Researched and chose on tech stack (Flutter, Node.js, MongoDB,
+          Firebase), set up workspace (GitHub repos, Jira)
+        </ListItem>
+        <ListItem>
+          Created the backend: database schemas, flows, business logic
+        </ListItem>
+        <ListItem>
+          Implemented authentication & authorization with Firebase in frontend
+          and backend, plus middleware protection
+        </ListItem>
+        <ListItem>
+          Wrote backend documentation structure using Swagger (OpenAPI) and
+          JSDoc
+        </ListItem>
+        <ListItem>Created frontend components and screens</ListItem>
+      </UnorderedList>
+    </Box>
+  </VStack>
+);
+
 const heka = (
   <VStack align="start" spacing={4}>
     <Heading align="left" size="lg">
@@ -102,6 +144,7 @@ const Experience = () => {
   return (
     <Section title="Experience" separator>
       <VStack spacing={8}>
+        {wsib}
         {heka}
         {cac}
       </VStack>
