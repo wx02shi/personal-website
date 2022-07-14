@@ -1,10 +1,13 @@
 // e.g. src/Chakra.js
+import "@fontsource/lato/400.css";
+
 // a) import `ChakraProvider` component as well as the storageManagers
 import {
   ChakraProvider,
   cookieStorageManager,
   localStorageManager,
 } from "@chakra-ui/react";
+import theme from "../styles/theme";
 
 export function Chakra({ cookies, children }) {
   // b) Pass `colorModeManager` prop
@@ -14,7 +17,7 @@ export function Chakra({ cookies, children }) {
       : localStorageManager;
 
   return (
-    <ChakraProvider colorModeManager={colorModeManager}>
+    <ChakraProvider colorModeManager={colorModeManager} theme={theme}>
       {children}
     </ChakraProvider>
   );
