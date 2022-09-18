@@ -75,7 +75,7 @@ const contact = (
 const resume = (
   <Button size="lg" leftIcon={<ArrowDownIcon />}>
     <Link
-      href="https://drive.google.com/file/d/1wxymhX5cRRehXHGNaUJYaW6mPvqOuLnZ/view?usp=sharing"
+      href="https://drive.google.com/file/d/1rgsnDKFWtWYKf076pLI6ojmiPB4GQAdq/view?usp=sharing"
       isExternal
     >
       View Resume
