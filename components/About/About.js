@@ -33,25 +33,11 @@ const about = (
     <Text align="left">
       I&apos;m a second year Computer Science student at the University of
       Waterloo. Currently, I&apos;m on a study term, but I&apos;m on the lookout
-      for internships in summer 2022. <br />
+      for internships in winter 2023. <br />
       I&apos;m passionate about tech and software engineering. Learning and
       exploring new technologies is fun, but at the end of the day, I want to
       build software that can make someone else&apos;s day better!
     </Text>
-    <Heading align="left" size="lg">
-      Hobbies
-    </Heading>
-    <Box align="left">
-      <UnorderedList>
-        <ListItem>I play badminton 4-5 times a week</ListItem>
-        <ListItem>Badminton gear: Li-ning Tectonic 7D, Victor A-190</ListItem>
-        <ListItem>
-          Keyboard: TheKey.Company Portico, with lubed+filmed Epsilon switches
-        </ListItem>
-        <ListItem>Audio: Moondrop Aria, Phillips SPH9500s</ListItem>
-        <ListItem>Dream watch: Grand Seiko SBGA211</ListItem>
-      </UnorderedList>
-    </Box>
   </VStack>
 );
 
@@ -73,13 +59,11 @@ const contact = (
 );
 
 const resume = (
-  <Button size="lg" leftIcon={<ArrowDownIcon />}>
-    <Link
-      href="https://drive.google.com/file/d/1wxymhX5cRRehXHGNaUJYaW6mPvqOuLnZ/view?usp=sharing"
-      isExternal
-    >
+  <Button size="lg" leftIcon={<ArrowDownIcon />} onClick={(e) => {
+    e.preventDefault();
+    window.open("https://drive.google.com/file/d/1rgsnDKFWtWYKf076pLI6ojmiPB4GQAdq/view?usp=sharing");
+  }}>
       View Resume
-    </Link>
   </Button>
 );
 
