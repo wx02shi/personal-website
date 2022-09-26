@@ -17,10 +17,10 @@ const Hero = () => {
         </Stack>
 
         <Text fontSize="2xl" align="start">
-          Full stack developer, student, enthusiast. <br />
-          Previous intern at{" "}
-          <Link href="https://www.mypaperminds.com" isExternal>
-            Paperminds
+          I press on my keyboard a lot. <br />
+          Previous intern at the {" "}
+          <Link href="https://www.wsib-lab.ca/" isExternal>
+            WSIB Innovation Lab
           </Link>
         </Text>
         <HStack spacing={4}>
