@@ -17,7 +17,7 @@ const Hero = () => {
         </Stack>
 
         <Text fontSize="2xl" align="start">
-          I press on my keyboard a lot. <br />
+          Studying computer science @ University of Waterloo <br />
           Previous intern at the {" "}
           <Link href="https://www.wsib-lab.ca/" isExternal>
             WSIB Innovation Lab
