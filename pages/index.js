@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar/Navbar";
 import About from "../components/About/About";
 import Education from "../components/Education/Education";
 import Experience from "../components/Experience/Experience";
+import Projects from "../components/Projects/Projects";
 import Skills from "../components/Skills/Skills";
 import Connect from "../components/Connect/Connect";
 import Footer from "../components/Footer/Footer";
@@ -34,6 +35,7 @@ export default function Home() {
 
         <About />
         <Education />
+        <Projects />
         <Experience />
         <Skills />
         <Connect />
