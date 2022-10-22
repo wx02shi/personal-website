@@ -35,21 +35,20 @@ const wsib = (
     <Box align="left">
       <UnorderedList>
         <ListItem>
-          Researched and chose on tech stack (Flutter, Node.js, MongoDB,
+          Researched and chose tech stack (Flutter, Node.js, MongoDB,
           Firebase), set up workspace (GitHub repos, Jira)
         </ListItem>
         <ListItem>
-          Created the backend: database schemas, flows, business logic
+          Primary work involved creating the backend: database schemas, flows, business logic
         </ListItem>
         <ListItem>
           Implemented authentication & authorization with Firebase in frontend
           and backend, plus middleware protection
         </ListItem>
         <ListItem>
-          Wrote backend documentation structure using Swagger (OpenAPI) and
+          Created automated backend documentation using Swagger (OpenAPI) and
           JSDoc
         </ListItem>
-        <ListItem>Created frontend components and screens</ListItem>
       </UnorderedList>
     </Box>
   </VStack>
@@ -80,16 +79,15 @@ const heka = (
           internship
         </ListItem>
         <ListItem>
-          Integrated Auth0 for secure user authentication and authorization
+          Introduced secure user authentication & authorization processes using Auth0
         </ListItem>
         <ListItem>
-          Created various frontend components, like account info UI
+          Created frontend components such as account info UI
         </ListItem>
-        <ListItem>Implemented Stripe payment management front-to-back</ListItem>
+        <ListItem>Implemented user online payment integration with Stripe</ListItem>
         <ListItem>
-          Improved team workflow by setting up linting/style auto-formatting,
-          migrating project management to Jira, and making documentation
-          guidelines
+          Improved team workflow by setting up linting, introducing Jira, and making documentation
+          guidelines, which allowed us to move launch schedule ahead by two weeks
         </ListItem>
       </UnorderedList>
     </Box>
@@ -112,7 +110,7 @@ const cac = (
     </HStack>
     <Text>Frontend developer, Oct 2020 - Apr 2021</Text>
     <Text align="left">
-      A small side project group created with some friends. We wanted to support
+      A small company created with some friends. We wanted to support
       local businesses recovering from the COVID-19 pandemic. Our goal was to
       provide professional website production services at an affordable price.
       As a result, our clients were able to connect with their customers better
