@@ -64,7 +64,7 @@ const heka = (
     <HStack>
       <Tag colorScheme="teal">React</Tag>
       <Tag colorScheme="cyan">Next.js</Tag>
-      <Tag colorScheme="blue">Postgresql</Tag>
+      <Tag colorScheme="blue">PostgreSQL</Tag>
       <Tag colorScheme="red">Auth0</Tag>
       <Tag colorScheme="purple">Stripe</Tag>
     </HStack>
