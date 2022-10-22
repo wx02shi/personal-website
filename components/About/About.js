@@ -61,7 +61,7 @@ const contact = (
 const resume = (
   <Button size="lg" leftIcon={<ArrowDownIcon />} onClick={(e) => {
     e.preventDefault();
-    window.open("https://drive.google.com/file/d/1rgsnDKFWtWYKf076pLI6ojmiPB4GQAdq/view?usp=sharing");
+    window.open("https://drive.google.com/drive/folders/1cHlzLpRnfuzXf3kNoEaVBmbbxH2Y2zDU?usp=sharing");
   }}>
       View Resume
   </Button>
