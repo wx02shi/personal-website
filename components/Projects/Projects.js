@@ -1,8 +1,7 @@
 import React from "react";
 import Section from "../../layouts/Section/Section";
 import ProjectCard from "../../layouts/ProjectCard/ProjectCard";
-import { Grid, GridItem, Text, VStack } from "@chakra-ui/layout";
-import { Tag } from "@chakra-ui/react";
+import { Grid, GridItem, VStack } from "@chakra-ui/layout";
 
 const listProjects = [
     { img: "digitClass.png", title: "Digit Classification", text: "Made only with numpy, no ML packages. Exploring the math behind the layers!", link: "https://github.com/wx02shi/digit-classification" },

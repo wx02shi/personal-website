@@ -9,7 +9,6 @@ import {
   Text,
   UnorderedList,
   VStack,
-  List,
 } from "@chakra-ui/layout";
 import { Tag } from "@chakra-ui/react";
 

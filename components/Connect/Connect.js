@@ -1,13 +1,11 @@
 import React from "react";
 import Section from "../../layouts/Section/Section";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { IconButton } from "@chakra-ui/react";
-import { DarkMode, useColorMode } from "@chakra-ui/color-mode";
+import { DarkMode } from "@chakra-ui/color-mode";
 import { Heading, HStack, Link, Text, VStack } from "@chakra-ui/layout";
 import styles from "../../styles/socials.module.css";
 
 const Connect = () => {
-  const { colorMode, toggleColorMode } = useColorMode();
 
   return (
     <DarkMode>

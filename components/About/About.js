@@ -5,7 +5,6 @@ import { useColorModeValue } from "@chakra-ui/color-mode";
 import { Button } from "@chakra-ui/react";
 import { ArrowDownIcon } from "@chakra-ui/icons";
 import {
-  Box,
   Grid,
   GridItem,
   Heading,
@@ -13,8 +12,6 @@ import {
   Image,
   Link,
   Text,
-  UnorderedList,
-  ListItem,
   VStack,
 } from "@chakra-ui/layout";
 import styles from "../../styles/socials.module.css";

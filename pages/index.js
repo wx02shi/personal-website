@@ -1,6 +1,5 @@
 import AffixMenu from "../components/AffixMenu/AffixMenu";
 import Hero from "../components/Hero/Hero";
-import Navbar from "../components/Navbar/Navbar";
 import About from "../components/About/About";
 import Education from "../components/Education/Education";
 import Experience from "../components/Experience/Experience";
@@ -9,9 +8,8 @@ import Skills from "../components/Skills/Skills";
 import Connect from "../components/Connect/Connect";
 import Footer from "../components/Footer/Footer";
 import Unavail from "../components/Unavail/Unavail";
-import { Box, Center, VStack } from "@chakra-ui/layout";
+import { Box, VStack } from "@chakra-ui/layout";
 import Head from "next/head";
-import color from "../styles/hero.module.css";
 
 export default function Home() {
   return (

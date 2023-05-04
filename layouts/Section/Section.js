@@ -1,6 +1,6 @@
 import React from "react";
 import { Image } from "@chakra-ui/react";
-import { Box, Grid, GridItem, Heading, Text, VStack } from "@chakra-ui/layout";
+import { Box, Grid, GridItem, Text } from "@chakra-ui/layout";
 
 const Section = ({ bg, title, separator, mtl, mbl, image, children }) => {
   return (

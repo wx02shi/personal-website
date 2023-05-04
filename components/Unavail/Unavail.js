@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Center, Heading, Text } from "@chakra-ui/layout";
+import { Center, Heading } from "@chakra-ui/layout";
 
 const Unavail = () => {
   return (

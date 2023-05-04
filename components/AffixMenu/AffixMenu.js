@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useColorMode, useColorModeValue } from "@chakra-ui/color-mode";
 import { MoonIcon, SunIcon, ChevronUpIcon } from "@chakra-ui/icons";
-import { Fade, Portal, IconButton } from "@chakra-ui/react";
-import { Box, VStack } from "@chakra-ui/layout";
+import { Fade, IconButton } from "@chakra-ui/react";
+import { VStack } from "@chakra-ui/layout";
 
 const AffixMenu = () => {
   const { colorMode, toggleColorMode } = useColorMode();

@@ -1,6 +1,6 @@
 import React from "react";
 import Section from "../../layouts/Section/Section";
-import { Box, Heading, HStack, Text, VStack } from "@chakra-ui/layout";
+import { Heading, Text, VStack } from "@chakra-ui/layout";
 
 const university = (
   <VStack align="start" spacing={4}>
