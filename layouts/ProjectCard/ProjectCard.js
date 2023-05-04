@@ -21,6 +21,7 @@ const ProjectCard = ({ img, title, text, link }) => {
           alt={text}
           bg={useColorModeValue("white", "gray.800")}
           boxSize="13rem"
+          objectFit="cover"
           w="100%"
         />
       </LinkOverlay>
