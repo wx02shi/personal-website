@@ -31,7 +31,7 @@ const ib = (
 
 const Education = () => {
   return (
-    <Section title="Education" mtl separator>
+    <Section title="Education" separator>
       <VStack align="start" spacing={8}>
         {university}
         {ib}

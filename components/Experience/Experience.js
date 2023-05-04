@@ -189,7 +189,7 @@ const cac = (
 
 const Experience = () => {
   return (
-    <Section title="Experience">
+    <Section title="Experience" mtl>
       <VStack spacing={8}>
         {interac}
         {wsib}
