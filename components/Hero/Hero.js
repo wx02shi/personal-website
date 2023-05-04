@@ -1,4 +1,5 @@
 import React from "react";
+import { Image } from "@chakra-ui/react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Heading, HStack, Link, Stack, Text } from "@chakra-ui/react";
 
@@ -18,8 +19,9 @@ const Hero = () => {
 
         <Text fontSize="2xl" align="start">
           Studying computer science @ <b>University of Waterloo</b> <br />
-          Previous software developer intern at {" "}
-          <Link href="https://www.interac.ca/en/" isExternal>
+          Previous software developer at {" "}
+          
+          <Link href="https://www.interac.ca/en/" color="yellow.400" isExternal>
             <b>Interac Corp.</b>
           </Link>
         </Text>
