@@ -30,7 +30,7 @@ const about = (
       I&apos;m a third year Computer Science student at the University of
       Waterloo. Currently, I&apos;m on a study term, but I&apos;m on the lookout
       for internships in fall 2023. <br />
-      I&apos;ve been passionate about technology ever since I was a young boy. The industry evolves quickly and always establishes new trends, it's hard not to see a promising future.
+      I&apos;ve been passionate about technology ever since I was a young boy. The industry evolves quickly and always establishes new trends, it&apos;s hard not to see a promising future.
       At the end of the day, I want to be able to say that I built something that can make someone else&apos;s life better!
     </Text>
   </VStack>
