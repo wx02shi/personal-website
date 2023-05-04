@@ -3,7 +3,7 @@ import Section from "../../layouts/Section/Section";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { useColorModeValue } from "@chakra-ui/color-mode";
 import { Button } from "@chakra-ui/react";
-import { ArrowDownIcon } from "@chakra-ui/icons";
+import { ExternalLinkIcon } from "@chakra-ui/icons";
 import {
   Grid,
   GridItem,
@@ -55,9 +55,9 @@ const contact = (
 );
 
 const resume = (
-  <Button size="lg" leftIcon={<ArrowDownIcon />} onClick={(e) => {
+  <Button size="lg" leftIcon={<ExternalLinkIcon />} onClick={(e) => {
     e.preventDefault();
-    window.open("https://drive.google.com/drive/folders/1cHlzLpRnfuzXf3kNoEaVBmbbxH2Y2zDU?usp=sharing");
+    window.open("william_shi_resume.pdf");
   }}>
       View Resume
   </Button>
