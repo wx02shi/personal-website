@@ -1,6 +1,6 @@
 import React from "react";
-import Section from "../../containers/Section/Section";
-import SkillCard from "../../containers/SkillCard/SkillCard";
+import Section from "../../layouts/Section/Section";
+import SkillCard from "../../layouts/SkillCard/SkillCard";
 import { Grid, GridItem, Text, VStack } from "@chakra-ui/layout";
 
 const listSkills = [

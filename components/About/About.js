@@ -1,5 +1,5 @@
 import React from "react";
-import Section from "../../containers/Section/Section";
+import Section from "../../layouts/Section/Section";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { useColorModeValue } from "@chakra-ui/color-mode";
 import { Button } from "@chakra-ui/react";

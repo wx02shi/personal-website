@@ -1,5 +1,5 @@
 import React from "react";
-import Section from "../../containers/Section/Section";
+import Section from "../../layouts/Section/Section";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IconButton } from "@chakra-ui/react";
 import { DarkMode, useColorMode } from "@chakra-ui/color-mode";

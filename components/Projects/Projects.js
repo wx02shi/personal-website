@@ -1,6 +1,6 @@
 import React from "react";
-import Section from "../../containers/Section/Section";
-import ProjectCard from "../../containers/ProjectCard/ProjectCard";
+import Section from "../../layouts/Section/Section";
+import ProjectCard from "../../layouts/ProjectCard/ProjectCard";
 import { Grid, GridItem, Text, VStack } from "@chakra-ui/layout";
 import { Tag } from "@chakra-ui/react";
 

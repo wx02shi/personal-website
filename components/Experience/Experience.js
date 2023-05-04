@@ -1,5 +1,5 @@
 import React from "react";
-import Section from "../../containers/Section/Section";
+import Section from "../../layouts/Section/Section";
 import {
   Box,
   Heading,
