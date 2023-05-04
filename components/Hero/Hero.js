@@ -17,10 +17,10 @@ const Hero = () => {
         </Stack>
 
         <Text fontSize="2xl" align="start">
-          Studying computer science @ University of Waterloo <br />
+          Studying computer science @ <b>University of Waterloo</b> <br />
           Previous software developer intern at {" "}
           <Link href="https://www.interac.ca/en/" isExternal>
-            Interac Corp.
+            <b>Interac Corp.</b>
           </Link>
         </Text>
         <HStack spacing={4}>
