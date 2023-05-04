@@ -10,13 +10,63 @@ import {
   UnorderedList,
   VStack,
 } from "@chakra-ui/layout";
-import { Tag } from "@chakra-ui/react";
+import { Tag, Image } from "@chakra-ui/react";
+
+const interac = (
+  <VStack align="start" spacing={4}>
+    <HStack>
+      <Image src="Interac.png" boxSize="3rem" mr={2} />
+      <Heading align="left" size="lg">
+        <Link href="https://interac.ca" isExternal>
+          Interac Corp.
+        </Link>
+      </Heading>
+    </HStack>
+    
+    <HStack>
+      <Tag colorScheme="yellow">Python</Tag>
+      <Tag colorScheme="red">NLP</Tag>
+      <Tag colorScheme="teal">FastAPI</Tag>
+      <Tag colorScheme="blue">PostgreSQL</Tag>
+      <Tag colorScheme="green">MongoDB</Tag>
+      <Tag colorScheme="purple">Azure</Tag>
+      <Tag colorScheme="teal">React</Tag>
+      <Tag colorScheme="cyan">Next.js</Tag>
+    </HStack>
+    <Text>Software developer intern, Jan 2023 - Apr 2023</Text>
+    <Text>
+      Spearheaded development for a new data-driven market analytics tool for internal use.
+    </Text>
+    <Box align="left">
+      <UnorderedList>
+        <ListItem>
+          Wrote NLP processes for news articles & financial reports: topic modeling, keyword extraction, named-entity recognition
+        </ListItem>
+        <ListItem>
+          Performed exploratory data analysis to select valuable datasets
+        </ListItem>
+        <ListItem>
+          Implemented data pipeline: data source ingestion, processing, caching, and storage
+        </ListItem>
+        <ListItem>
+          Created backend REST API: DB schemas, CRUD, auth, and endpoints
+        </ListItem>
+        <ListItem>
+          Deployed backend and databases on Azure cloud
+        </ListItem>
+        <ListItem>
+          Created frontend UI components, layouts, and request links to backend
+        </ListItem>
+      </UnorderedList>
+    </Box>
+  </VStack>
+);
 
 const wsib = (
   <VStack align="start" spacing={4}>
     <Heading align="left" size="lg">
       <Link href="https://wsib-lab.ca" isExternal>
-        Workplace Safety & Insurance Board: Innovation Lab
+        Workplace Safety & Insurance Board
       </Link>
     </Heading>
     <HStack>
@@ -141,6 +191,7 @@ const Experience = () => {
   return (
     <Section title="Experience">
       <VStack spacing={8}>
+        {interac}
         {wsib}
         {heka}
         {cac}
