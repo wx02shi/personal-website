@@ -18,9 +18,9 @@ const Hero = () => {
 
         <Text fontSize="2xl" align="start">
           Studying computer science @ University of Waterloo <br />
-          Previous intern at the {" "}
-          <Link href="https://www.wsib-lab.ca/" isExternal>
-            WSIB Innovation Lab
+          Previous software developer intern at {" "}
+          <Link href="https://www.interac.ca/en/" isExternal>
+            Interac Corp.
           </Link>
         </Text>
         <HStack spacing={4}>
