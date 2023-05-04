@@ -9,17 +9,16 @@ import {
   GridItem,
   Heading,
   HStack,
-  Image,
   Link,
   Text,
   VStack,
 } from "@chakra-ui/layout";
 import styles from "../../styles/socials.module.css";
 
-const image = {
+const avatar = {
   src: "profile_pic.jpg",
-  alt: "profile picture",
-  radius: "full",
+  name: "William Shi",
+  size: "2xl"
 };
 
 const about = (
@@ -67,7 +66,7 @@ const About = () => {
   return (
     <Section
       bg={useColorModeValue("gray.50", "gray.900")}
-      image={image}
+      avatar={avatar}
       mtl
       mbl
     >

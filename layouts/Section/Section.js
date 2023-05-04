@@ -1,8 +1,8 @@
 import React from "react";
-import { Image } from "@chakra-ui/react";
+import { Avatar, Image } from "@chakra-ui/react";
 import { Box, Grid, GridItem, Text } from "@chakra-ui/layout";
 
-const Section = ({ bg, title, separator, mtl, mbl, image, children }) => {
+const Section = ({ bg, title, separator, mtl, mbl, image, avatar, children }) => {
   return (
     <Box bg={bg}>
       <Box px={10} pb={mbl ? 24 : 12}>
@@ -37,6 +37,13 @@ const Section = ({ bg, title, separator, mtl, mbl, image, children }) => {
                 src={image.src}
                 alt={image.alt}
                 borderRadius={image.radius}
+              />
+            )}
+            {avatar && (
+              <Avatar
+                src={avatar.src}
+                name={avatar.name}
+                size={avatar.size}
               />
             )}
           </GridItem>
