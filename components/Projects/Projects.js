@@ -4,12 +4,10 @@ import ProjectCard from "../../layouts/ProjectCard/ProjectCard";
 import { Grid, GridItem, VStack } from "@chakra-ui/layout";
 
 const listProjects = [
-    { img: "digitClass.png", title: "Digit Classification", text: "Made only with numpy, no ML packages. Exploring the math behind the layers!", link: "https://github.com/wx02shi/digit-classification" },
+    { img: "congestion.png", title: "Congestion Modeling", text: "CNN determines traffic congestion from satellite images. Winner of MacHacks 2022", link: "https://devpost.com/software/using-context-aware-cnn-to-model-congestion-in-urban-areas" },
+    { img: "nodes.png", title: "Membership Protocol", text: "Network failure detection and message dissemination via gossip protocol multicasting", link: "https://devpost.com/software/using-context-aware-cnn-to-model-congestion-in-urban-areas" },
     { img: "chess.png", title: "Chess Project", text: "command-line chess game, built with C++. Incorporates OOP and design patterns", link: "https://github.com/wx02shi/chess-command-line" },
-    { img: "solidity.png", title: "Data Structures in Solidity", text: "Common data structures implemented in Solidity. Terrible experience, highly recommended.", link: "https://github.com/wx02shi/data-structures-in-solidity" },
     { img: "personal.png", title: "Personal Website", text: "You're seeing it right now! Made with Next.js, Chakra UI, and deployed on Vercel.", link: "https://github.com/wx02shi/personal-website" },
-    { img: "pokedex.png", title: "Online Pokedex", text: "A simple, web pokedex. Made with PokeAPI and TailwindCSS.", link: "https://pokedex-git-main-williamsxz99.vercel.app/" },
-    { img: "gumball.png", title: "Museum of Candy", text: "A showcase of UI design skills, built with HTML and Bootstrap.", link: "https://awesome-wright-30b24a.netlify.app/" },
 ]
 
 const Projects = () => {

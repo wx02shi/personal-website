@@ -32,10 +32,10 @@ export default function Home() {
         </VStack>
 
         <About />
-        <Education />
-        <Projects />
         <Experience />
+        <Projects />
         <Skills />
+        <Education />
         <Connect />
 
         <Footer />
