@@ -1,13 +1,13 @@
-import AffixMenu from "../components/AffixMenu/AffixMenu";
-import Hero from "../components/Hero/Hero";
-import About from "../components/About/About";
-import Education from "../components/Education/Education";
-import Experience from "../components/Experience/Experience";
-import Projects from "../components/Projects/Projects";
-import Skills from "../components/Skills/Skills";
-import Connect from "../components/Connect/Connect";
-import Footer from "../components/Footer/Footer";
-import Unavail from "../components/Unavail/Unavail";
+import AffixMenu from "../components/AffixMenu";
+import Hero from "../components/Hero";
+import About from "../components/About";
+import Education from "../components/Education";
+import Experience from "../components/Experience";
+import Projects from "../components/Projects";
+import Skills from "../components/Skills";
+import Connect from "../components/Connect";
+import Footer from "../components/Footer";
+import Unavail from "../components/Unavail";
 import { Box, VStack } from "@chakra-ui/layout";
 import Head from "next/head";
 
@@ -18,8 +18,6 @@ export default function Home() {
         <title>William Shi</title>
       </Head>
       <Box w="100%" align="center" display={{ base: "none", md: "block" }}>
-        <AffixMenu />
-
         <VStack
           h="100vh"
           w="100%"
@@ -38,6 +36,7 @@ export default function Home() {
         <Education />
         <Connect />
 
+        <AffixMenu />
         <Footer />
       </Box>
       <Unavail />

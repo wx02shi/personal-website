@@ -1,9 +1,9 @@
 import React from "react";
-import Section from "../../layouts/Section/Section";
+import Section from "../layouts/Section";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { DarkMode } from "@chakra-ui/color-mode";
 import { Heading, HStack, Link, Text, VStack } from "@chakra-ui/layout";
-import styles from "../../styles/socials.module.css";
+import styles from "../styles/socials.module.css";
 
 const Connect = () => {
 

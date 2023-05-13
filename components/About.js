@@ -1,5 +1,5 @@
 import React from "react";
-import Section from "../../layouts/Section/Section";
+import Section from "../layouts/Section";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { useColorModeValue } from "@chakra-ui/color-mode";
 import { Button } from "@chakra-ui/react";
@@ -13,7 +13,7 @@ import {
   Text,
   VStack,
 } from "@chakra-ui/layout";
-import styles from "../../styles/socials.module.css";
+import styles from "../styles/socials.module.css";
 
 const avatar = {
   src: "profile_pic.jpg",

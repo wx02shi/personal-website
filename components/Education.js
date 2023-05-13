@@ -1,5 +1,5 @@
 import React from "react";
-import Section from "../../layouts/Section/Section";
+import Section from "../layouts/Section";
 import { Heading, Text, VStack } from "@chakra-ui/layout";
 
 const university = (

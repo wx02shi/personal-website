@@ -3,8 +3,8 @@ import { Image } from "@chakra-ui/react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Heading, HStack, Link, Stack, Text } from "@chakra-ui/react";
 
-import styles from "../../styles/socials.module.css";
-import heroStyles from "../../styles/hero.module.css";
+import styles from "../styles/socials.module.css";
+import heroStyles from "../styles/hero.module.css";
 
 const Hero = () => {
   return (
