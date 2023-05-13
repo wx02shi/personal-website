@@ -107,7 +107,7 @@ const heka = (
   <VStack align="start" spacing={4}>
     <Heading align="left" size="lg">
       <Link href="https://mypaperminds.com" isExternal>
-        Paperminds (formerly Heka Health | Santé)
+        Heka Health | Santé
       </Link>
     </Heading>
     <HStack>
