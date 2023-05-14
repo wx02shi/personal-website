@@ -16,8 +16,8 @@ import {
 import styles from "../styles/socials.module.css";
 
 const avatar = {
-  src: "profile_pic.jpg",
-  name: "William Shi",
+  src: "/profile_pic.jpg",
+  name: "Profile picture",
   size: "2xl"
 };
 
@@ -58,7 +58,7 @@ const resume = (
     e.preventDefault();
     window.open("william_shi_resume.pdf");
   }}>
-      View Resume
+    View Resume
   </Button>
 );
 

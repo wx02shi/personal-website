@@ -40,11 +40,7 @@ const Section = ({ bg, title, separator, mtl, mbl, image, avatar, children }) =>
               />
             )}
             {avatar && (
-              <Avatar
-                src={avatar.src}
-                name={avatar.name}
-                size={avatar.size}
-              />
+              <Image src={avatar.src} alt={avatar.name} size={avatar.size} borderRadius="50%" boxSize="150px" />
             )}
           </GridItem>
 
