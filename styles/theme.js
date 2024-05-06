@@ -1,9 +1,12 @@
 import { extendTheme } from "@chakra-ui/react";
 
+const font = `'DM Sans Variable', sans-serif`;
+
 const config = {
   useSystemColorMode: true,
   fonts: {
-    body: `'Lato', sans-serif`,
+    body: font,
+    heading: font,
   },
 };
 

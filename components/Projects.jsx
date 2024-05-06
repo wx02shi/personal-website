@@ -4,10 +4,12 @@ import ProjectCard from "../layouts/ProjectCard";
 import { Grid, GridItem, VStack } from "@chakra-ui/layout";
 
 const listProjects = [
-    { img: "congestion.png", title: "Urban Congestion Modeling", text: "CNN determines traffic congestion from satellite images. Winner of MacHacks 2022", link: "https://devpost.com/software/using-context-aware-cnn-to-model-congestion-in-urban-areas" },
-    { img: "nodes.png", title: "Network Membership Protocol", text: "Network failure detection and message dissemination via gossip protocol multicasting", link: "https://github.com/wx02shi/Failure-Detection-Membership-Protocol" },
-    { img: "chess.png", title: "Chess Project", text: "command-line chess game, built with C++. Incorporates OOP and design patterns", link: "https://github.com/wx02shi/chess-command-line" },
-    { img: "personal.png", title: "Personal Website", text: "You're seeing it right now! Made with Next.js, Chakra UI, and deployed on Vercel.", link: "https://github.com/wx02shi/personal-website" },
+  { img: "bitnet.png", title: "BitNet b1.58", text: "Implemented Microsoft's BitNet LLM: uses ternary [-1,0,1] weights instead of floats", link: "https://github.com/wx02shi/bitnet" },
+  { img: "zkml.svg", title: "ZKML", text: "Undergrad Research Assistant: exploring zero-knowledge proofs for ML execution", link: "" },
+  { img: "siren.jpg", title: "Smart Contract Analyzer", text: "ETHGlobal Waterloo Winner: Generates sequence diagrams on Solidity programs", link: "https://ethglobal.com/showcase/siren-yso0v" },
+  { img: "congestion.png", title: "Urban Congestion Modeling", text: "MacHacks 2022 Winner: CNN determines traffic congestion from satellite images", link: "https://devpost.com/software/using-context-aware-cnn-to-model-congestion-in-urban-areas" },
+  { img: "nodes.png", title: "Network Membership Protocol", text: "Network failure detection and message dissemination via gossip protocol multicasting", link: "https://github.com/wx02shi/Failure-Detection-Membership-Protocol" },
+  { img: "chess.png", title: "Chess Project", text: "command-line chess game, built with C++. Incorporates OOP and design patterns", link: "https://github.com/wx02shi/chess-command-line" },
 ]
 
 const Projects = () => {

@@ -24,7 +24,7 @@ const listSkills = [
   },
   {
     img: "Postgresql-icon.svg",
-    text: "PostgreSQL",
+    text: "Postgres",
     link: "https://www.postgresql.org/",
   },
   {

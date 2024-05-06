@@ -12,17 +12,17 @@ const Hero = () => {
       <Stack align="start" maxW="container.md" spacing={6}>
         <Stack align="start" spacing={1}>
           <Heading size="xl">Nice to meet you, I&apos;m</Heading>
-          <Heading className={heroStyles.color} size="4xl" fontSize="9xl">
+          <Heading className={heroStyles.color} size="4xl" fontSize="9xl" fontWeight="900">
             William
           </Heading>
         </Stack>
 
         <Text fontSize="2xl" align="start">
           Studying computer science @ <b>University of Waterloo</b> <br />
-          Previous software developer at {" "}
-          
-          <Link href="https://www.interac.ca/en/" color="yellow.400" isExternal>
-            <b>Interac Corp.</b>
+          Incoming ML Engineer Intern @ {" "}
+
+          <Link href="https://www.keplar.io/" color="purple.400" fontWeight="700" isExternal>
+            Keplar.io
           </Link>
         </Text>
         <HStack spacing={4}>

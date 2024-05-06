@@ -27,11 +27,9 @@ const about = (
       About Me
     </Heading>
     <Text align="left">
-      I&apos;m a third year Computer Science student at the University of
-      Waterloo. Currently, I&apos;m on a study term, but I&apos;m on the lookout
-      for internships in fall 2023. <br />
-      I&apos;ve been passionate about technology ever since I was a young boy. The industry evolves quickly and always establishes new trends, it&apos;s hard not to see a promising future.
-      At the end of the day, I want to be able to say that I built something that can make someone else&apos;s life better!
+      Hi there! I&apos;m an aspiring software engineer, interested in tech. I&apos;m currently working at <Link href="">Keplar.io</Link>, building LLM agents for customer simulation and product development. Previously, I was at <Link href="">Interac</Link> and <Link href="">WSIB Innovation Lab</Link>. <br />
+      I&apos;m a fourth year Computer Science student at the University of
+      Waterloo. My current focus in on ML, but I am actively pursuing distributed systems and crypto too! <br />
     </Text>
   </VStack>
 );
@@ -56,7 +54,7 @@ const contact = (
 const resume = (
   <Button size="lg" leftIcon={<ExternalLinkIcon />} onClick={(e) => {
     e.preventDefault();
-    window.open("william_shi_resume.pdf");
+    window.open("resume.pdf");
   }}>
     View Resume
   </Button>
